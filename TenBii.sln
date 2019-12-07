@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenBii.WebApp", "TenBii.WebApp\TenBii.WebApp.csproj", "{EF4B63A8-B12C-4693-86B9-654035911C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4B63A8-B12C-4693-86B9-654035911C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4B63A8-B12C-4693-86B9-654035911C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4B63A8-B12C-4693-86B9-654035911C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4B63A8-B12C-4693-86B9-654035911C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
