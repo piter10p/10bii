@@ -1,6 +1,20 @@
 ﻿@page "/"
 
-<div>
-    <h1>Hello world</h1>
-    <button class="mdc-button mdc-button--raised">  <span class="mdc-button__ripple"></span> Learn More</button>
+<div class="calculator-container">
+    <div class="calculator">
+        <div class="calculator-display">
+            SOME TEXT
+        </div>
+        <div class="keyboard">
+            @for (var i = 0; i < 8; i++)
+            {
+                @for (var j = 0; j < 5; j ++)
+                {
+                    <CalculatorButton PrimaryText="N" SecondaryText="xPYR"></CalculatorButton>
+                }
+        
+                <br />
+            }
+        </div>
+    </div>
 </div>
