@@ -1,6 +1,7 @@
 ﻿:root {
     --mdc-theme-primary: #1c313a;
     --mdc-theme-secondary: #ffca28;
+    --mdc-theme-tertiary: #6d6dff;
 
     --mdc-theme-on-primary: white;
     
@@ -64,6 +65,11 @@ div.calculator-display {
 
 .secondary-text {
     color: var(--mdc-theme-secondary);
+    font-size: 10px;
+}
+
+.tertiary-text {
+    color: var(--mdc-theme-tertiary);
     font-size: 10px;
 }
 
