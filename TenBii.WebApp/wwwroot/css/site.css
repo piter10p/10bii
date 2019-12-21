@@ -64,11 +64,13 @@ div.calculator-display {
 }
 
 .secondary-text {
+    text-transform: none;
     color: var(--mdc-theme-secondary);
     font-size: 10px;
 }
 
 .tertiary-text {
+    text-transform: none;
     color: var(--mdc-theme-tertiary);
     font-size: 10px;
 }
