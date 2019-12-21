@@ -1,5 +1,20 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div class="calculator-container">
+    <div class="calculator">
+        <div class="calculator-display">
+            SOME TEXT
+        </div>
+        <div class="keyboard">
+            @for (var i = 0; i < 8; i++)
+            {
+                @for (var j = 0; j < 5; j ++)
+                {
+                    <CalculatorButton PrimaryText="N" SecondaryText="xPYR" TertiaryText="ASD"></CalculatorButton>
+                }
+        
+                <br />
+            }
+        </div>
+    </div>
+</div>

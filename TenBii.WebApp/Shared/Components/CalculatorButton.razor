@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Components
+
+<button class="mdc-button mdc-button--unelevated calculator-button">
+    <span class="mdc-button__ripple"></span>
+    <div class="button-container">
+        <div class="secondary-text">@SecondaryText</div>
+        <br />
+        <div class="primary-text">@PrimaryText</div>
+        <br />
+        <div class="tertiary-text">@TertiaryText</div>
+    </div>
+</button>
+
+@code {
+
+    [Parameter]
+    public string PrimaryText { get; set; }
+    
+    [Parameter]
+    public string SecondaryText { get; set; }
+    
+    [Parameter]
+    public string TertiaryText { get; set; }
+
+}
